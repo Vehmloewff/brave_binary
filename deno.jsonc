@@ -1,0 +1,18 @@
+{
+	"fmt": {
+		"options": {
+			"lineWidth": 140,
+			"semiColons": false,
+			"singleQuote": true,
+			"useTabs": true
+		}
+	},
+	"lint": {
+		"rules": {
+			"include": ["no-external-import"]
+		}
+	},
+	"compilerOptions": {
+		"lib": ["dom", "deno.ns"]
+	}
+}

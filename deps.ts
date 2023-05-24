@@ -1,0 +1,6 @@
+export * as pathUtils from 'https://deno.land/std@0.188.0/path/mod.ts'
+export * as zip from 'https://deno.land/x/zip@v1.2.5/mod.ts'
+export * as dtils from 'https://deno.land/x/dtils@2.0.0-beta.5/mod.ts'
+export * as asserts from 'https://deno.land/std@0.188.0/testing/asserts.ts'
+export * as porter from 'https://deno.land/x/port@1.0.0/mod.ts'
+export * as http from 'https://deno.land/std@0.188.0/http/mod.ts'
