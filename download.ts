@@ -5,7 +5,7 @@ const LATEST_ENDPOINT = 'https://api.github.com/repos/brave/brave-browser/releas
 export type Platform = 'darwin' | 'windows' | 'linux'
 export type Architecture = 'x86_64' | 'aarch64'
 
-export interface GithubAsset {
+interface GithubAsset {
 	url: string
 	name: string
 }
