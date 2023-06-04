@@ -5,7 +5,7 @@ import { inferBinaryPath } from './path.ts'
 export * from './download.ts'
 export * from './path.ts'
 
-export async function getInstalledBinaryPath(directory: string) {
+export async function getInstalledBinaryPath(directory: string): Promise<string> {
 	const path = inferBinaryPath(directory)
 
 	if (!await dtils.exists(path)) await downloadBrave(directory)

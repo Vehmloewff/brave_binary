@@ -1,18 +1,15 @@
 {
 	"fmt": {
-		"options": {
-			"lineWidth": 140,
-			"semiColons": false,
-			"singleQuote": true,
-			"useTabs": true
-		}
+		"lineWidth": 140,
+		"semiColons": false,
+		"singleQuote": true,
+		"useTabs": true,
+		"exclude": ["test_data"]
 	},
 	"lint": {
 		"rules": {
-			"include": ["no-external-import"]
-		}
-	},
-	"compilerOptions": {
-		"lib": ["dom", "deno.ns"]
+			"include": ["no-external-import", "explicit-module-boundary-types"]
+		},
+		"exclude": ["test_data"]
 	}
 }

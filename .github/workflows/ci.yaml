@@ -23,4 +23,4 @@ jobs:
           deno-version: v1.x
 
       - name: Run CI
-        run: deno run -A https://code.jikno.com/devops/main.ts --staging --ci
+        run: deno run -A https://deno.land/x/dirt@1.0.0/main.ts --ci --staging

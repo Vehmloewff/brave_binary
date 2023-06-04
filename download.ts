@@ -51,7 +51,7 @@ export interface DownloadBraveOptions {
 	arch?: Architecture
 }
 
-export async function downloadBrave(directory: string, options: DownloadBraveOptions = {}) {
+export async function downloadBrave(directory: string, options: DownloadBraveOptions = {}): Promise<void> {
 	const platform = options.platform || getUsedPlatform()
 	const arch = options.arch || Deno.build.arch
 

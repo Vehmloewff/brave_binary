@@ -1,6 +1,6 @@
 import { pathUtils } from './deps.ts'
 
-export function inferBinaryPath(directory: string) {
+export function inferBinaryPath(directory: string): string {
 	const platform = Deno.build.os
 
 	if (platform === 'darwin') return pathUtils.join(directory, 'Brave Browser.app/Contents/MacOS/Brave Browser')
